@@ -3,6 +3,11 @@
 A backend implementation for [xdg-desktop-portal](http://github.com/flatpak/xdg-desktop-portal)
 that is using GTK4 and Libadwaita.
 
+---
+| **File Chooser Portal** | **App Chooser Portal** |
+|---|---|
+| ![](https://raw.githubusercontent.com/PrincParshia/xdg-desktop-portal-adw/refs/heads/main/assets/filechooserdialog.png) | ![](https://raw.githubusercontent.com/PrincParshia/xdg-desktop-portal-adw/refs/heads/main/assets/appchooserdialog.png) |
+
 ## Installing
 
 First, make sure to install the required dependencies:
