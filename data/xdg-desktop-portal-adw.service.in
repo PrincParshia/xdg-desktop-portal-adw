@@ -1,0 +1,9 @@
+[Unit]
+Description=Portal service (GTK4/Adwaita implementation)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.adw
+ExecStart=@libexecdir@/xdg-desktop-portal-adw
