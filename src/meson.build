@@ -88,4 +88,9 @@ executable(
   install_dir: libexecdir,
 )
 
+install_data (
+  'xdg-desktop-portal-gnome.gschema.xml',
+  install_dir : datadir / 'glib-2.0' / 'schemas',
+)
+
 gnome.post_install(glib_compile_schemas: true)
